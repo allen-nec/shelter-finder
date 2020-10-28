@@ -8,6 +8,9 @@ import ReminderScreen from "./screens/ReminderScreen";
 import EtcScreen from "./screens/EtcScreen";
 import FindLocation from "./screens/FindLocation";
 import FilterSearchScreen from "./screens/FilterSearchScreen";
+import SearchResultScreen from "./screens/SearchResultScreen";
+import ShelterDetailPage from "./screens/ShelterDetailPage";
+
 
 import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
@@ -22,6 +25,8 @@ function MyStack() {
       <Stack.Screen name=" " component={HomeScreen} options={MyNavTheme} />
       <Stack.Screen name="FindLocation" component={FindLocation} options={MyNavTheme} />
       <Stack.Screen name="FilterSearchScreen" component={FilterSearchScreen} options={MyNavTheme} />
+      <Stack.Screen name="SearchResultScreen" component={SearchResultScreen} options={MyNavTheme} />
+      <Stack.Screen name="ShelterDetailPage" component={ShelterDetailPage} options={MyNavTheme} />
     </Stack.Navigator>
   );
 }

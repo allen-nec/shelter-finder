@@ -155,13 +155,13 @@ const DATA1 = [
 const DATA2 = [
   {
     id: "1",
-    title: "HazardMap",
+    title: "SearchResultScreen",
     desc: "ハザードマップを見る",
     icon: "../assets/Reminder.png",
   },
   {
     id: "2",
-    title: "",
+    title: "ShelterDetailPage",
     desc: "安否確認をする",
   },
 ];

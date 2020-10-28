@@ -6,4 +6,5 @@ export default {
   white: "#ffffff",
   icon: "#ffffff",
   register: "#ffc491",
+  nextButton: "#ffffff",
 };
