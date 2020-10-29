@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-native-elements
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-native-chart-kit
 
 PATH: 
-  C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-14.0.2\bin;C:\Program Files (x86)\Yarn\bin\;D:\Users\000001A00BAAA\AppData\Local\Microsoft\WindowsApps;D:\Users\000001A00BAAA\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\000001A00BAAA\AppData\Roaming\npm;D:\Users\000001A00BAAA\AppData\Local\Yarn\bin
+  C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-14.0.2\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\PuTTY\;D:\Users\000001A00BAAA\AppData\Local\Microsoft\WindowsApps;D:\Users\000001A00BAAA\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\000001A00BAAA\AppData\Roaming\npm;D:\Users\000001A00BAAA\AppData\Local\Yarn\bin
 
 Yarn version: 
   1.22.5
@@ -31,6 +31,7 @@ npm manifest:
       "eject": "expo eject"
     },
     "dependencies": {
+      "@react-native-community/art": "^1.2.0",
       "@react-native-community/masked-view": "0.1.10",
       "@react-navigation/native": "^5.7.3",
       "@react-navigation/stack": "^5.9.0",
@@ -41,6 +42,8 @@ npm manifest:
       "react-is": "^16.13.1",
       "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
       "react-native-gesture-handler": "~1.6.0",
+      "react-native-pie": "^0.1.0",
+      "react-native-pie-chart": "^1.0.13",
       "react-native-reanimated": "~1.9.0",
       "react-native-safe-area-context": "~3.0.7",
       "react-native-screens": "~2.9.0",

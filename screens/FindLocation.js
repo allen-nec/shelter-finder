@@ -49,9 +49,10 @@ const FindLocation = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   screen: {
-    margin: 20,
+    padding: 20,
     flex: 2,
-    backgroundColor: colors.backgrnd,
+    backgroundColor: colors.white,
+
   },
   locationTitleBar: {
     flex: 1,

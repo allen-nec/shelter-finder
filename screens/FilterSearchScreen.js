@@ -4,7 +4,7 @@ import { color } from "react-native-reanimated";
 import colors from "../constants/colors";
 
 
-const FilterSearchScreen = ({ navigation }) => {
+const FilterSearchScreen = ({ props }) => {
     return (
         <View style={styles.screen}>
           <ScrollView>
@@ -101,9 +101,9 @@ const FilterSearchScreen = ({ navigation }) => {
 
   const styles = StyleSheet.create({
     screen: {
-      margin: 20,
+      padding: 20,
       flex: 1,
-      backgroundColor: colors.backgrnd,
+      backgroundColor: colors.white,
       justifyContent: "center",
     },
     searchbar: {

@@ -83,9 +83,9 @@ const SearchResultScreen = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   screen: {
-    margin: 20,
+    padding: 20,
     flex: 1,
-    backgroundColor: colors.backgrnd,
+    backgroundColor: colors.white,
   },
   tableRow: {
     flex: 2,

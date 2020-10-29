@@ -79,7 +79,7 @@ const Item = ({ title }) => (
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    backgroundColor: Colors.backgrnd,
+    backgroundColor: colors.white,
     alignContent: 'center',
     alignItems: 'center',
     justifyContent: 'center',
